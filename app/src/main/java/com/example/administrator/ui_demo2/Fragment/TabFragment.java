@@ -33,9 +33,10 @@ public class TabFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_tab, container, false);
-        float progress = 69.0F;
+        float progress = 100.0F;
         mColor = (ColorArcProgressBar) view.findViewById(R.id.bar2);
-        mColor.setCurrentValues(progress);
+        mColor.setCurrentValues(progress);//progress为百分比，不是步数
+        mColor.setMaxValues(9000);
         return view;
     }
 
