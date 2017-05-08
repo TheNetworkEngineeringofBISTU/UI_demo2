@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 
 import com.example.administrator.ui_demo2.R;
 import com.example.administrator.ui_demo2.widget.ColorArcProgressBar;
-import com.example.administrator.ui_demo2.widget.HalfCircleView;
+
 
 
 public class TabFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    private HalfCircleView mHalf;
+
     private ColorArcProgressBar mColor;
 
     public TabFragment() {
